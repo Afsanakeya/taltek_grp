@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.647 s <<< FAILURE! - in TestSuite
+TestRunner.setUpClass  Time elapsed: 0.326 s  <<< FAILURE!
+java.lang.IllegalArgumentException: path must exist: /Users/afsanakeya/Desktop/taltek_grp/src/test/java/SignUp.features
+
