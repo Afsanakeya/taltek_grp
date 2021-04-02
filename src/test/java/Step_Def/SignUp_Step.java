@@ -40,7 +40,7 @@ public class SignUp_Step extends Config {
 
     @When("I click Create My Account button")
     public void iClickCreateMyAccountButton() {
-        signUp.createNewAccountButton();
+        signUp.clickCreateMyAccountButton();
     }
 
     @Then("I will verify Thank you message")

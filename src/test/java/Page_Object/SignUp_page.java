@@ -19,7 +19,7 @@ public class SignUp_page extends Config {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"wrap\"]/div/div/div/a")
+    @FindBy(how = How.XPATH, using = "//*[@id='wrap']/div/div/div/a")
     public WebElement createNewAccount;
     // firstName edit box
     @FindBy(how = How.NAME, using = "firstName")
