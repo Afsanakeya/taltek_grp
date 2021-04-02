@@ -28,7 +28,7 @@ public class Hook extends Config {
         driver = initDriver (browserType);
         switch (baseURL){
             case "qa":
-                url = "http://qa.taltektc.com/home/loginmv";
+                url = "http://qa.taltektc.com";
                 break;
         }
         driver.get(url);

@@ -1,9 +1,0 @@
-Base/TestData.class
-Page_Object/Login_page.class
-Base/Util.class
-Step_Def/Hook.class
-Base/Config.class
-Step_Def/Login_Steps.class
-Step_Def/SignUp_Step.class
-Page_Object/SignUp_page.class
-TestRunner.class

@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>taltek_grp</td>
                           <td>1</td>
-                        <td>31 Mar 2021, 23:30</td>
+                        <td>01 Apr 2021, 20:07</td>
           </tr>
         </tbody>
       </table>
@@ -98,7 +98,88 @@ $(document).ready(function() {
 <div class="container-fluid" id="summary">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-              <p>You have no features in your cucumber report</p>
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Step_Def.Hook.openBrowser()</td>
+                <td>1</td>
+                <td class="duration" data-value="5081287000">5s 081ms</td>
+                <td class="duration" data-value="5081287000">5s 081ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.Hook.tearDown(io.cucumber.java.Scenario)</td>
+                <td>1</td>
+                <td class="duration" data-value="587355000">587ms</td>
+                <td class="duration" data-value="587355000">587ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iAmAtTalentTEKHomePage()</td>
+                <td>1</td>
+                <td class="duration" data-value="41597000">041ms</td>
+                <td class="duration" data-value="41597000">041ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iClickCreateMyAccountButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="45248920000">45s 248ms</td>
+                <td class="duration" data-value="45248920000">45s 248ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iClickOnCreateNewAccountButton()</td>
+                <td>1</td>
+                <td class="duration" data-value="381099000">381ms</td>
+                <td class="duration" data-value="381099000">381ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iClickedOnAgreeCheckbox()</td>
+                <td>1</td>
+                <td class="duration" data-value="46616000">046ms</td>
+                <td class="duration" data-value="46616000">046ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iFilledOutTheFormWithValidInformation()</td>
+                <td>1</td>
+                <td class="duration" data-value="1004135000">1s 004ms</td>
+                <td class="duration" data-value="1004135000">1s 004ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Step_Def.SignUp_Step.iWillVerifyThankYouMessage()</td>
+                <td>1</td>
+                <td class="duration" data-value="42000">000ms</td>
+                <td class="duration" data-value="42000">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>8</td>
+              <td>8</td>
+              <td class="duration">52s 391ms</td>
+              <td class="duration">6s 548ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
           </div>
   </div>
 </div>
